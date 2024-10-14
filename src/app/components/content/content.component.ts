@@ -36,7 +36,7 @@ import { MatCardModule } from '@angular/material/card';
                 >Descomplicando a prática</mat-card-title
               >
               <mat-card-subtitle class="text-secondary font-semibold"
-                >Canal no Youtue</mat-card-subtitle
+                >Canal no Youtube</mat-card-subtitle
               >
               <img
                 class="rounded-full w-[120px] h-[120px]"

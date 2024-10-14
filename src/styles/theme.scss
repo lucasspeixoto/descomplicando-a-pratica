@@ -7,8 +7,8 @@ $app-light-theme: mat.define-theme(
   (
     color: (
       theme-type: light,
-      primary: mat.$cyan-palette,
-      tertiary: mat.$orange-palette,
+      primary: mat.$azure-palette,
+      tertiary: mat.$blue-palette,
       use-system-variables: true,
     ),
     typography: (
@@ -27,7 +27,7 @@ $app-dark-theme: mat.define-theme(
     color: (
       theme-type: dark,
       primary: mat.$violet-palette,
-      tertiary: mat.$azure-palette,
+      tertiary: mat.$orange-palette,
       use-system-variables: true,
     ),
     typography: (
@@ -338,8 +338,8 @@ $app-dark-theme: mat.define-theme(
 }
 
 html {
-background: var(--app-background);
-color: var(--app-on-background);
+  background: var(--app-background);
+  color: var(--app-on-background);
 }
 
 html.dark {
