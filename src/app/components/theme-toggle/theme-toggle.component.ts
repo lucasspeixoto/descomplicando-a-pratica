@@ -23,11 +23,11 @@ import { ThemeService } from '../../services/theme.service';
     MatTooltipModule,
   ],
   template: `
-    <div class="absolute top-0 right-0">
+    <div class="fixed bottom-0 right-0">
       <button
         type="button"
         mat-icon-button
-        class="mr-2 mt-1"
+        class="m-1 p-0"
         (click)="themeService.toggleColorTheme()"
         [matTooltip]="themeService.isCurrentThemeDark() ? 'Claro' : 'Escuro'">
         @if (themeService.isCurrentThemeDark()) {
@@ -38,7 +38,7 @@ import { ThemeService } from '../../services/theme.service';
       </button>
     </div>
   `,
-  styleUrl: './theme-toggle.component.css',
+  styles: ``,
 })
 export class ThemeToggleComponent {
   public themeService = inject(ThemeService);

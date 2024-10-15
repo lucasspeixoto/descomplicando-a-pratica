@@ -9,7 +9,7 @@ import { ThemeService } from './services/theme.service';
   imports: [ContentComponent, ThemeToggleComponent],
   template: `
     <div
-      class="relative bg-cover bg-center object-cover min-h-screen w-full flex justify-center"
+      class="relative bg-cover bg-center object-cover flex justify-center items-start min-h-screen w-full"
       style="background-image: url('/assets/images/galaxy.png')">
       <app-theme-toggle />
       <app-content />
